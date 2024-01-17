@@ -24,3 +24,6 @@ def update():
 def delete():
     msg = 'Usuário excluído com sucesso!'
     return msg
+
+mensagem = read_all()
+print(mensagem)
