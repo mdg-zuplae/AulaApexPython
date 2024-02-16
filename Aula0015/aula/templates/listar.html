@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>RouteBeer - {{nome}}</title>
+        <link rel="stylesheet" href="static/css/estilo.css">
+    </head>
+    <body>
+        <h1>RouteBeer - {{nome}}</h1>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome da cerveja</th>
+                    <th>Estilo</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for cerveja in lista %}
+                <tr>
+                    <td>{{cerveja}}</td>
+                    <td>Pilse - ruim</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <a href="/">Voltar</a>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+body{
+    background: #70ff11;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    background: #ccc;
+}
+table th{
+    text-transform: uppercase;
+    background-color: #fff;
+    text-align: left;
+    padding: 2px 15px;
+}
+table td{
+    border: 1px solid #000;
+    padding: 2px 15px;
+}
